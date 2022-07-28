@@ -73,7 +73,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "Peter Chang Personal Blog"
   # website images for Open Graph and Twitter Cards
-  images = ["https://petergchang.github.io/logo.png"]
+  images = ["https://petergchang.github.io/images/logo.png"]
 
   # Header config
   [params.header]
@@ -177,11 +177,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
+      avatarURL = "https://petergchang.github.io/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = ""
+      title = "Peter G. Chang"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "This is My New Hugo Site"
+      subtitle = "ML/AI Researcher"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -190,7 +190,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       disclaimer = ""
     # Home page posts
     [params.home.posts]
-      enable = true
+      enable = false
       # special amount of posts in each home posts page
       paginate = 6
       #  replaced with hiddenFromHomePage in params.page
@@ -199,17 +199,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    GitHub = "petergchang"
+    Linkedin = "gyuyoungchang"
+    Twitter = "petergchang"
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
     Youtubecustom = ""
-    Youtubechannel = ""
+    Youtubechannel = "UCYSBM54glGczLVWIQHzHmHw"
     Tumblr = ""
     Quora = ""
     Keybase = ""
@@ -272,8 +272,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HackTheBox = ""
     RootMe= ""
     Phone = ""
-    Email = "xxxx@xxxx.com"
-    RSS = true # 
+    Email = "peter0414@gmail.com"
+    RSS = false # 
 
   #  Page global config
   [params.page]
@@ -347,16 +347,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Blogger = false
       Baidu = false
       Odnoklassniki = false
