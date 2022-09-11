@@ -179,9 +179,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       avatarURL = "https://petergchang.github.io/images/avatar.png"
       #  title shown in home page (HTML format is supported)
-      title = "Peter G. Chang"
+      # title = "Peter G. Chang"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "ML/AI Researcher"
+      subtitle = "Hello Internet. <br>Thanks a lot for stopping by. <br>Make yourself at home."
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
