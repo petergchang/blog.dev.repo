@@ -1,7 +1,7 @@
 baseURL = "https://petergchang.github.io/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "LoveIt"
+theme = "loveit"
 
 # website title
 title = "Peter Chang"
@@ -14,7 +14,7 @@ languageName = "English"
 hasCJKLanguage = false
 
 # default amount of posts in each pages
-paginate = 20
+# paginate = 20
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
@@ -49,6 +49,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/about/"
     # title will be shown when you hover on this menu link
     title = "About Peter"
+  [[menu.main]]
+    weight = 1
+    identifier = "research"
+    pre = ""
+    post = ""
+    name = "Research"
+    url = "/research/"
+    # title will be shown when you hover on this menu link
+    title = "Research"
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -572,14 +581,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":contentbasename"
 
 # Privacy config
 [privacy]
   #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
@@ -602,4 +611,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+
+[pagination]
+  pagerSize = 20
