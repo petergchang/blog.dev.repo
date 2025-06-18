@@ -1,6 +1,5 @@
 
 ## Publications
-
 - K. Vafa, **P. Chang**, A. Rambachan, S. Mullainathan. What Has a Foundation Model Found? Inductive Bias Reveals World Models. 2025. International Conference on Machine Learning (ICML).
 - M. Jones, **P. Chang**, K. Murphy. Bayesian Online Natural Gradient. 2024. Advances in Neural Information Processing Systems (NeurIPS). ([link](https://arxiv.org/abs/2405.19681))
 - **P. Chang**, G. Durán-Martín, A. Shestopaloff, M. Jones, K. Murphy. Low-rank extended Kalman filtering for online learning of neural networks from streaming data. 2023. Conference on Lifelong Learning Agents (CoLLAs). ([link](https://arxiv.org/abs/2305.19535))
